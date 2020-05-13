@@ -1,0 +1,10 @@
+food = "pizza"
+is_delicious = true
+food = "steak"
+num2 = 2
+num7 = 10
+quotient = 10 / 2
+=> 5
+songs = ["s1", "s2", "s3"]
+songs.delete_at(0) => "s1"
+food.length => 4
