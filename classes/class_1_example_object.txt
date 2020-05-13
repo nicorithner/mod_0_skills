@@ -1,0 +1,13 @@
+breakfastMenu
+
+Attributes values
+number_of_pages (integer) => 4
+menu_type (string, array) => "Breakfast"
+available (boolean) => false
+item (string, array) => ["toast", "fried egg", "club sandwich"]
+
+Methods
+add_page => 5
+menu_select => returns breakfastMenu
+item_remove => removes "club sandwich"
+activate_menu => makes breakfastMenu true 
