@@ -1,0 +1,16 @@
+diningRoomOne
+
+
+Attributes
+* available_tables => 40
+* is_ready => true
+* sever_tables => Nico = [1, 2, 3, 8, 10]
+* total_seats => 160
+* server => "Nico"
+
+Methods
+* total_tables => 30
+* table_ready => false
+* assign_to_server  => tables[25] << Nico
+* seats_available => 20
+* add_name => "Pablo"

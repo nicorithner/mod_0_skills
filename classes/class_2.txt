@@ -1,0 +1,17 @@
+Class
+Tables
+
+
+Attributes
+* available_tables (integer)
+* is_ready (boolean)
+* sever_tables (array)
+* total_seats (integer)
+* server ("string")
+
+Methods
+* total_tables (modifies available_tables. returns how many tables are available)
+* table_ready (modifies is_ready. changes to true or false)
+* assign_to_server (modifies server_tables. Adds tables to array.)
+* seats_available (modifies total_seats. returns number of seats available.)
+* add_name (modifies server. Creates a string)
