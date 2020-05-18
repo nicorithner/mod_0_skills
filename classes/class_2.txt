@@ -1,5 +1,5 @@
 Class
-Tables
+dining_area
 
 
 Attributes
@@ -10,8 +10,8 @@ Attributes
 * server ("string")
 
 Methods
-* total_tables (modifies available_tables. returns how many tables are available)
-* table_ready (modifies is_ready. changes to true or false)
+* remove_table (modifies available_tables. Takes table out of the array)
+* make_table_ready (modifies is_ready. changes to true)
 * assign_to_server (modifies server_tables. Adds tables to array.)
-* seats_available (modifies total_seats. returns number of seats available.)
+* report_total_seats (modifies total_seats. Returns number of seats occupied or otherwise.)
 * add_name (modifies server. Creates a string)

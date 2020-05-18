@@ -8,6 +8,6 @@ item (string, array) => ["toast", "fried egg", "club sandwich"]
 
 Methods
 add_page => 5
-menu_select => returns breakfastMenu
-item_remove => removes "club sandwich"
-activate_menu => makes breakfastMenu true 
+edit_menu => "Breakfast Menu"
+remove_item => removes "club sandwich"
+activate_menu => makes breakfastMenu true

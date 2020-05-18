@@ -3,14 +3,14 @@ diningRoomOne
 
 Attributes
 * available_tables => 40
-* is_ready => true
+* is_ready => false
 * sever_tables => Nico = [1, 2, 3, 8, 10]
 * total_seats => 160
 * server => "Nico"
 
 Methods
-* total_tables => 30
-* table_ready => false
+* remove_table => 39 (remove a table from available tables.
+* make_table_ready => true
 * assign_to_server  => tables[25] << Nico
-* seats_available => 20
+* report_total_seats => total_seats = [ in_use => 80, not_in_use => 30, reserved => 10, avg_in_use_per_table => 1.5]
 * add_name => "Pablo"

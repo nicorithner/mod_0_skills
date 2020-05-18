@@ -11,6 +11,6 @@ item (string, array)
 
 Methods
 add_page (modifies number_of_pages. Adds pages)
-menu_select (modifies menu_type. calls element from the array)
-item_remove (modifies item. removes existing menu item)
+edit_menu (modifies menu_type. calls element from the array and changes its contents)
+remove_item (modifies item. removes existing menu item)
 activate_menu (modifies available. Makes it true)
