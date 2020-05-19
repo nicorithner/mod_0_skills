@@ -4,9 +4,9 @@ Menu
 
 Attributes
 number_of_pages (integer)
-menu_type (string, array)
+menu_type (string)
 available (boolean)
-item (string, array)
+items (array)
 
 
 Methods

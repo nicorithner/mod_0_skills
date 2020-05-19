@@ -1,4 +1,4 @@
-breakfastMenu
+BreakfastMenu
 
 Attributes values
 number_of_pages (integer) => 4
